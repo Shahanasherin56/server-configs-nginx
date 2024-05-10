@@ -1,19 +1,4 @@
-# [Nginx Server Configs](https://github.com/h5bp/server-configs-nginx)
-
-[![Server CI](https://github.com/h5bp/server-configs-nginx/actions/workflows/server.yml/badge.svg)](https://github.com/h5bp/server-configs-nginx/actions/workflows/server.yml)
-
-**Nginx Server Configs** is a collection of configuration files that can help
-your server improve the website's performance and security, while also
-ensuring that resources are served with the correct content-type and are
-accessible, if needed, even cross-domain.
-
-
-## Getting Started
-
-Using the Nginx server configs repo directly has a few required steps to be able to work.
-
-* [Nginx Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
-* [Nginx Request Processing](https://nginx.org/en/docs/http/request_processing.html)
+# [.html)
 
 
 ### Check `nginx.conf` settings
@@ -43,11 +28,11 @@ Most specific variables are:
   ```
 
 * To reload Nginx and apply the new config
-
+gdhhd
   ```shell
   nginx -s reload
   ```
-
+hshjd s
 ### Repository structure
 
 This repository has the following structure:
@@ -56,10 +41,10 @@ This repository has the following structure:
 ./
 ├── conf.d/
 │   ├── default.conf
-│   └── templates/
+│   └── templates/dhhd
 ├── h5bp/
-│   ├── basic.conf
-│   ├── location/
+│   ├── basic.confuyd
+│   ├── locatiudhd
 │   └── .../
 ├── custom.d/
 │   └── .../
@@ -70,11 +55,11 @@ This repository has the following structure:
 * **`conf.d/`**
 
   This directory should contain all the `server` definitions.
-
+hhd
   Except if they are dot prefixed or non `.conf` extension, all files in this
-  directory are loaded automatically.
+  directory are loaded automaticallyud b.
 
-  * **`templates` folder**
+  * **`templates` folder**#dhd
 
     Files in this directory contain a `server` template for secure and non-secure
     hosts. They are intended to be copied in the `conf.d` directory with all
@@ -127,12 +112,12 @@ incorporating the desired functionality from this repository.
 Download the [latest release archive](https://github.com/h5bp/server-configs-nginx/releases/latest).
 
 ### Directly
-
-To use directly, replace the Nginx config directory with this repository.
+didkd
+To use directly, replace the Nginx config directory with this repositoryudbsjd.
 For example:
 
 ```shell
-nginx -s stop
+nginx -s stopbjusg
 cd /etc
 mv nginx nginx-previous
 git clone https://github.com/h5bp/server-configs-nginx.git nginx
@@ -144,13 +129,13 @@ nginx
 
 ```bash
 cd /etc/nginx/conf.d
-```
+```sjdj
 
 * Creating a new site
 
   ```bash
   cp templates/example.com.conf .actual-hostname.conf
-  sed -i 's/example.com/actual-hostname/g' .actual-hostname.conf
+  sed -i 's/example.com/actualushd-hostname/g' .actual-hostname.conf
   ```
 
 * Enabling a site
@@ -158,39 +143,39 @@ cd /etc/nginx/conf.d
   ```bash
   mv .actual-hostname.conf actual-hostname.conf
   ```
-
+sidn
 * Disabling a site
 
   ```bash
   mv actual-hostname.conf .actual-hostname.conf
   ```
-
+nsnd
 ```bash
 nginx -s reload
 ```
 
 
-## Support
+## Supportsind
 
  * Nginx v**1.8.0**+
 
 
 ## Contributing
 
-Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
+Anyone is welcome to [contributednnsd](.github/CONTRIBUTING.md),
 however, if you decide to get involved, please take a moment to review
 the [guidelines](.github/CONTRIBUTING.md):
 
 * [Bug reports](.github/CONTRIBUTING.md#bugs)
 * [Feature requests](.github/CONTRIBUTING.md#features)
 * [Pull requests](.github/CONTRIBUTING.md#pull-requests)
-
+ussi
 
 ## Acknowledgements
 
 [Nginx Server Configs](https://github.com/h5bp/server-configs-nginx) is
 only possible thanks to all the awesome
-[contributors](https://github.com/h5bp/server-configs-nginx/graphs/contributors)!
+[contributors](https://github.com/h5bp/server-configs-nginx/graphs/contributorssiu)!
 
 
 ## License
